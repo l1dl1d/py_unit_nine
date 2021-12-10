@@ -14,7 +14,8 @@ dog1.print_trick_list()
 
 # 4. Call each of the three trick methods for each of the dogs. There should be six lines in total (3 tricks
 # for each do). Make sure to do a different order of tricks for each dog.
-
+dog1.roll_over()
+dog1.shake_hand()
 
 
 

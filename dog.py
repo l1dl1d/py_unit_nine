@@ -14,7 +14,7 @@ class Dog:
         print(self.dog_name, "shakes your hand")
         self.trick_list.append("shakes your hand professionally")
     def print_trick_list(self):
-        if self.trick_list == 0:
-            print("dog_name hasn't preformed any tricks yet")
+        if len(self.trick_list) == 0:
+            print(self.dog_name, "hasn't preformed any tricks yet")
         else:
-            print("dog_name has performed the following tricks:", self.trick_list)
+            print(self.dog_name, "has performed the following tricks:", self.trick_list)
