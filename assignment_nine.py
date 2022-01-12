@@ -21,6 +21,7 @@ def main():
     player_one = deal_cards(new_deck)
     player_two = deal_cards(new_deck)
     for x in range(5):
-        p1_card = player_one
-        compare_cards()
+        card1 = player_one[x]
+        card2 = player_two[x]
+        print(compare_cards(card1, card2))
 main()
